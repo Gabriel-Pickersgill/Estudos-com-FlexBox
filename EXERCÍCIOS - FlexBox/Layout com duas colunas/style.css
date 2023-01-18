@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.container{
+    display:flex;
+    gap: 1rem;
+}
+
+aside, main {
+    border: 1px solid;
+    height: 95vh;
+}
+
+aside{
+    flex-basis: 25%;
+}
+
+main{
+    flex: 1;
+}

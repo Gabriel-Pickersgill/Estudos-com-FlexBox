@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 0;
+    
+}
+
+header{
+    padding: 2rem;
+    background-color: rgb(39, 39, 39);
+    
+}
+
+a{
+    font-family: 'Secular One';
+    text-decoration: none;
+    color: rgb(109, 189, 109);
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: .8rem;
+    align-items:center;
+    
+}
+
+ul li:last-child {
+    background: rgb(109, 189, 109);
+    padding: 10px;
+    border-radius: 10px;
+}
